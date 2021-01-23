@@ -1,0 +1,84 @@
+.Popular {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+
+    &-BigPTitle {
+        font-size: $xl;
+        font-family: $secondFont;
+        color: $firstColor;
+    }
+
+    &-BigParagraph {
+        font-family: $secondFont;
+        font-size: $s;
+    }
+
+    &-BigPost {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(1, auto);
+    }
+
+    &-BigImg {
+        width: 800px;
+        grid-template-columns:  2 , 4;
+        
+    }
+
+    &-h3 {
+        display: flex;
+        justify-content: flex-start;
+        font-size: $l;
+        font-family: $secondFont;
+        color: $firstColor;
+        
+    }
+    
+
+}
+
+.Poppular {
+    
+    margin-left: 300px;
+    margin-right: 300px;
+    border-bottom: solid 1px;
+
+    
+
+    &-Lista {
+        display: flex;
+        justify-content: space-between;
+        border: solid;
+        
+        padding: 0;
+    }
+
+    &-Box3Header {
+        font-size: $m;
+        font-family: $secondFont;
+    }
+
+    &-Box3Paragraph {
+        font-size: $s;
+        font-family: $secondFont;
+    }
+
+    &-Box3Item {
+        width: 400px;
+        list-style: none;
+        border: solid;
+    }
+
+    &-Box3Post {
+        width: 400px;
+    }
+
+    &-h3 {
+        position: absolute;
+        justify-content: flex-end;
+        font-size: $l;
+        font-family: $secondFont;
+        color: $firstColor; 
+    }
+}

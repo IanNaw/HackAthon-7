@@ -1,0 +1,60 @@
+.Footer {
+    margin-top: 60PX;
+    background-color: #316099;
+    height: 900px;
+    border-top-right-radius: 200px;
+    color: $secondColor;
+    font-family: $secondFont;
+
+    &-Split {
+
+        border: solid 1px white;
+    }
+
+    &-TopContainer {
+        padding-bottom: 90px;
+        padding-top: 90px;
+        margin-left: 300px;
+        margin-right: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-TopText {
+        width: 400px;
+    }
+
+    &-Toph3 {
+        font-size: 38px;
+        
+    }
+
+    &-Button {
+        align-items: center;
+        width: 220px;
+        height: 56px;
+        font-size: $l;
+        background-color: #5A98D0;
+        color: white;
+        border-radius: 10px;
+        font-family: $firstFont;
+        border: 0px;
+    }
+
+    &-BotomContainer {
+        padding-top: 80px;
+        margin-left: 300px;
+        margin-right: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-Text3 {
+        width: 300px;
+    }
+
+    &-Header5 {
+        font-size: $m;
+    }
+}

@@ -1,0 +1,49 @@
+.Articles {
+    margin-left: 300px;
+    margin-right: 300px;
+
+    &-BoxArt {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(1, auto);
+        column-gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    &-Img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 350px;
+    }
+
+    &-Text {
+        margin: 0;
+        grid-template-columns: 2 / 4;
+        grid-row: 1 / 2;
+    }
+
+    &-h5 {
+        margin: 0;
+        font-size: $m;
+        font-family: $secondFont;
+        color: $firstColor;
+    }
+
+    &-Paragraph {
+        font-family: $secondFont;
+    }
+
+    &-Footer {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-Link {
+        text-decoration: none;
+        color: $firstColor;
+        font-family: $secondFont;
+    }
+
+
+}
