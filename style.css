@@ -476,7 +476,6 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: solid;
   padding: 0;
 }
 
@@ -493,7 +492,6 @@ template {
 .Poppular-Box3Item {
   width: 400px;
   list-style: none;
-  border: solid;
 }
 
 .Poppular-Box3Post {
